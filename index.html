@@ -1,51 +1,57 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Lind</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand " href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" id="about" href="templates/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="experience" href="templates/experience.html">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="education" href="templates/education.html">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="skills" href="templates/skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="personal" href="templates/personal.html">Personal Interests</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
+        <img src="img/father_son_hats.jpeg" width=300 alt="Father Son Backwards Hats">
+    </div>
 
-  <h1>Burt Macklin</h1>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  <img src="https://thehill.com/sites/default/files/styles/thumb_small_article/public/blogs/maklinburt05102017youtube.jpg?itok=LLLGOy46" alt="Bert Maclin">
-
-  <p>My name is Burt Macklin, FBI. I was the best damn agent they had until I was framed 
-    for a crime I didn't commit...stealing the President's rubies.
-  </p>
-
-  <ul>
-    <li><b>Email: </b> <a href="#">burtmacklinfbi@gmail.com</a></li>
-    <li><strong>Github </strong> <a href="#">burtmacklin</a></li>
-    <li><strong>Twitter: </strong> <a href="#">Official FBI</a></li>
-  </ul>
-
-  <table>
-    <tr>
-      <th>Books</th>
-      <th>Movies</th>
-      <th>Games</th>
-    </tr>
-    <tr>
-      <td>Mindhunter</td>
-      <td>Road House</td>
-      <td>Cops and Robbers</td>
-    </tr>
-    <tr>
-      <td>The Bureau</td>
-      <td>Rambo</td>
-      <td>Jailbreak</td>
-    </tr>
-    <tr>
-      <td>Public Enemies</td>
-      <td>Silence of the Lambs</td>
-      <td>Clue</td>
-    </tr>
-  </table>
-
-  <br><br><br><br>
-  
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
 </body>
-
 </html>
